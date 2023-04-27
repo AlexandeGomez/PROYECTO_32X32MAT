@@ -1,0 +1,30 @@
+-- begin_signature
+-- single_port_rom(DATA_WIDTH
+-- 6
+-- ADDR_WIDTH
+-- 4)
+-- end_signature
+WIDTH=6;
+DEPTH=16;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	15 :	XXXXXX;
+	14 :	XXXXXX;
+	13 :	XXXXXX;
+	12 :	XXXXXX;
+	11 :	XXXXXX;
+	10 :	XXXXXX;
+	9 :	XXXXXX;
+	8 :	XXXXXX;
+	7 :	110010;
+	6 :	010111;
+	5 :	000010;
+	4 :	111100;
+	3 :	111011;
+	2 :	100010;
+	1 :	001010;
+	0 :	111111;
+END;

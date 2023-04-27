@@ -1,0 +1,30 @@
+-- begin_signature
+-- dual_port_romM1(DATA_WIDTH
+-- 6
+-- ADDR_WIDTH
+-- 4)
+-- end_signature
+WIDTH=6;
+DEPTH=16;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	15 :	XXXXXX;
+	14 :	XXXXXX;
+	13 :	XXXXXX;
+	12 :	XXXXXX;
+	11 :	XXXXXX;
+	10 :	XXXXXX;
+	9 :	XXXXXX;
+	8 :	XXXXXX;
+	7 :	100110;
+	6 :	001111;
+	5 :	010111;
+	4 :	101101;
+	3 :	011110;
+	2 :	110000;
+	1 :	110101;
+	0 :	100101;
+END;

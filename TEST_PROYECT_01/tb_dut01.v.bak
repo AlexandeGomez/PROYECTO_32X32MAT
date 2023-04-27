@@ -1,0 +1,65 @@
+`timescale 1ps/1ps
+module tb_dut01();
+
+reg clk_tb; 
+reg rst_tb;
+reg [8:0] addr_am1_tb; 
+reg [8:0] addr_bm1_tb;
+reg [8:0] addr_am2_tb; 
+reg [8:0] addr_bm2_tb;
+
+wire signed [4:-27] a1_tb;
+wire signed [4:-27] a2_tb;
+wire signed [4:-27] b1_tb;
+wire signed [4:-27] b2_tb;
+wire signed [9:-22] a1b1_tb;
+wire signed [9:-22] a2b2_tb;
+wire signed [9:-22] a1b2_tb;
+wire signed [9:-22] a2b1_tb;
+wire signed [10:-21] ab_real_tb;
+wire signed [10:-21] ab_imag_tb;
+
+integer i;
+
+top_dut01 #(  .DIM(2),  .NBIT(32)) DUT(
+    .clk_top        (clk_tb),
+    .rst_top        (rst_tb),
+    .addr_am1_top   (addr_am1_tb), 
+    .addr_bm1_top   (addr_bm1_tb),
+    .addr_am2_top   (addr_am2_tb),
+    .addr_bm2_top   (addr_bm2_tb),
+
+    .a1_top         (a1_tb),
+    .a2_top         (a2_tb),
+    .b1_top         (b1_tb),
+    .b2_top         (b2_tb),
+    .a1b1_top       (a1b1_tb),
+    .a2b2_top       (a2b2_tb),
+    .a1b2_top       (a1b2_tb),
+    .a2b1_top       (a2b1_tb),
+    .ab_real_top    (ab_real_tb),
+    .ab_imag_top    (ab_imag_tb)
+);
+
+initial begin
+    clk_tb = 1'b0;
+    rst_tb = 1'b1;
+    
+    #3 rst_tb = 1'b0;
+    #3 rst_tb = 1'b1;
+
+    #10;
+    for(i=0; i<=6; i=i+1)
+    begin
+        addr_am1_tb = i;
+        addr_bm1_tb = i+1;
+        addr_am2_tb = i;
+        addr_bm2_tb = i+1;
+        #50;
+    end
+    #100 $stop;
+end
+
+always#1 clk_tb = ~clk_tb;
+
+endmodule

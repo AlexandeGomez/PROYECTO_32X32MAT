@@ -1,0 +1,20 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/prodtwo.v}
+vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/top_moduletwo.v}
+vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/tb_top_moduletwo.v}
+vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/sumtwo.v}
+
+vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/tb_top_moduletwo.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_top_moduletwo
+
+add wave *
+view structure
+view signals
+run -all

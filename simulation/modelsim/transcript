@@ -1,0 +1,157 @@
+# do 32X32MATV1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03 {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/top_dut.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:38 on Apr 22,2023
+# vlog -vlog01compat -work work "+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03" /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/top_dut.v 
+# -- Compiling module top_dut
+# 
+# Top level modules:
+# 	top_dut
+# End time: 18:57:39 on Apr 22,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03 {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/sumtwo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:39 on Apr 22,2023
+# vlog -vlog01compat -work work "+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03" /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/sumtwo.v 
+# -- Compiling module sumtwo
+# 
+# Top level modules:
+# 	sumtwo
+# End time: 18:57:39 on Apr 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03 {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/stateMachOperateSignals.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:39 on Apr 22,2023
+# vlog -vlog01compat -work work "+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03" /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/stateMachOperateSignals.v 
+# -- Compiling module stateMachOperateSignals
+# 
+# Top level modules:
+# 	stateMachOperateSignals
+# End time: 18:57:39 on Apr 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03 {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:39 on Apr 22,2023
+# vlog -vlog01compat -work work "+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03" /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir2.v 
+# -- Compiling module StateMachineGenDir2
+# 
+# Top level modules:
+# 	StateMachineGenDir2
+# End time: 18:57:39 on Apr 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03 {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:39 on Apr 22,2023
+# vlog -vlog01compat -work work "+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03" /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir1.v 
+# -- Compiling module StateMachineGenDir1
+# 
+# Top level modules:
+# 	StateMachineGenDir1
+# End time: 18:57:39 on Apr 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03 {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/simple_dual_port_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:39 on Apr 22,2023
+# vlog -vlog01compat -work work "+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03" /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/simple_dual_port_ram.v 
+# -- Compiling module simple_dual_port_ram
+# 
+# Top level modules:
+# 	simple_dual_port_ram
+# End time: 18:57:39 on Apr 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03 {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prodtwo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:39 on Apr 22,2023
+# vlog -vlog01compat -work work "+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03" /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prodtwo.v 
+# -- Compiling module prodtwo
+# 
+# Top level modules:
+# 	prodtwo
+# End time: 18:57:39 on Apr 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03 {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prescaler.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:39 on Apr 22,2023
+# vlog -vlog01compat -work work "+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03" /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prescaler.v 
+# -- Compiling module prescaler
+# 
+# Top level modules:
+# 	prescaler
+# End time: 18:57:39 on Apr 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03 {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/contadorDirRamOut.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:39 on Apr 22,2023
+# vlog -vlog01compat -work work "+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03" /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/contadorDirRamOut.v 
+# -- Compiling module contadorDirRamOut
+# 
+# Top level modules:
+# 	contadorDirRamOut
+# End time: 18:57:39 on Apr 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03 {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/acum.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:40 on Apr 22,2023
+# vlog -vlog01compat -work work "+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03" /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/acum.v 
+# -- Compiling module accum
+# 
+# Top level modules:
+# 	accum
+# End time: 18:57:40 on Apr 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches {/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:40 on Apr 22,2023
+# vlog -vlog01compat -work work "+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches" /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v 
+# -- Compiling module tb_dut
+# 
+# Top level modules:
+# 	tb_dut
+# End time: 18:57:40 on Apr 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_dut
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_dut 
+# Start time: 18:57:40 on Apr 22,2023
+# Loading work.tb_dut
+# Loading work.top_dut
+# Loading work.stateMachOperateSignals
+# Loading work.StateMachineGenDir1
+# Loading work.StateMachineGenDir2
+# Loading work.prescaler
+# Loading work.simple_dual_port_ram
+# Loading work.prodtwo
+# Loading work.sumtwo
+# Loading work.accum
+# Loading work.contadorDirRamOut
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_dut File: /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v Line: 124
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_dut File: /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v Line: 125
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_dut File: /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v Line: 126
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_dut File: /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v Line: 127
+# 
+# add wave *
+# view structure
+# view signals
+# run -all
+# ** Note: $stop    : /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v(101)
+#    Time: 5 ms  Iteration: 0  Instance: /tb_dut
+# Break in Module tb_dut at /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v line 101
+# Stopped at /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v line 101
+# 
+# <EOF>
+# End time: 18:58:24 on Apr 22,2023, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 4

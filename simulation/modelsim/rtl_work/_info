@@ -1,0 +1,279 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/simulation/modelsim
+vaccum
+Z1 !s110 1682598666
+!i10b 1
+!s100 K14m6`NnP3k3O@i9<<1X33
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQG6bG0gTLS7=ULAUDLUOS0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1682238946
+8/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/acum.v
+F/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/acum.v
+!i122 9
+L0 1 59
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1682598666.000000
+!s107 /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/acum.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03|/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/acum.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03
+Z8 tCvgOpt 0
+vcontadorDirRamOut
+R1
+!i10b 1
+!s100 CK:oFGHE:AHjP1YF02WHO1
+R2
+IN0fzh>=K^ZQzNiWSbfTGB2
+R3
+R0
+w1682331120
+8/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/contadorDirRamOut.v
+F/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/contadorDirRamOut.v
+!i122 8
+L0 1 25
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/contadorDirRamOut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03|/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/contadorDirRamOut.v|
+!i113 1
+R6
+R7
+R8
+ncontador@dir@ram@out
+vprescaler
+R1
+!i10b 1
+!s100 J=2N<68IjmZ^[XjEWHNhb1
+R2
+IW=JinKzNI]no_aP9mQM>l1
+R3
+R0
+w1681962284
+8/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prescaler.v
+F/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prescaler.v
+!i122 7
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prescaler.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03|/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prescaler.v|
+!i113 1
+R6
+R7
+R8
+vprodtwo
+Z9 !s110 1682598665
+!i10b 1
+!s100 HinLPR6Bg_Kn=i077bmSV1
+R2
+Ial1W[3z<@WW:Zi[h>5dBf0
+R3
+R0
+Z10 w1681962286
+8/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prodtwo.v
+F/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prodtwo.v
+!i122 6
+L0 1 43
+R4
+r1
+!s85 0
+31
+Z11 !s108 1682598665.000000
+!s107 /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prodtwo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03|/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/prodtwo.v|
+!i113 1
+R6
+R7
+R8
+vsimple_dual_port_ram
+R9
+!i10b 1
+!s100 leJC0oeQLfQji?l0gdOLS0
+R2
+I1HLD6O9EUMC?z4;]EPnhA2
+R3
+R0
+w1681961894
+8/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/simple_dual_port_ram.v
+F/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/simple_dual_port_ram.v
+!i122 5
+L0 1 17
+R4
+r1
+!s85 0
+31
+R11
+!s107 /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/simple_dual_port_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03|/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/simple_dual_port_ram.v|
+!i113 1
+R6
+R7
+R8
+vStateMachineGenDir1
+R9
+!i10b 1
+!s100 _ab=DeXk?Co:>=jGh6h7B3
+R2
+IzlYM24:PiU2S]XFQJJ9Qj1
+R3
+R0
+w1681895138
+8/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir1.v
+F/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir1.v
+!i122 4
+L0 1 84
+R4
+r1
+!s85 0
+31
+R11
+!s107 /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03|/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir1.v|
+!i113 1
+R6
+R7
+R8
+n@state@machine@gen@dir1
+vStateMachineGenDir2
+R9
+!i10b 1
+!s100 3?THT6e9U_SM2TM:0nN7P2
+R2
+I>E=::zVm5Y:?XSJR?_GTW3
+R3
+R0
+w1681893980
+8/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir2.v
+F/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir2.v
+!i122 3
+L0 1 79
+R4
+r1
+!s85 0
+31
+R11
+!s107 /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03|/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/StateMachineGenDir2.v|
+!i113 1
+R6
+R7
+R8
+n@state@machine@gen@dir2
+vstateMachOperateSignals
+R9
+!i10b 1
+!s100 Z0Zc0A7df@BEiOYaPDfcM2
+R2
+I:^:mPWjo3CEc4LhL95^dV3
+R3
+R0
+w1682091460
+8/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/stateMachOperateSignals.v
+F/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/stateMachOperateSignals.v
+!i122 2
+L0 1 62
+R4
+r1
+!s85 0
+31
+R11
+!s107 /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/stateMachOperateSignals.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03|/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/stateMachOperateSignals.v|
+!i113 1
+R6
+R7
+R8
+nstate@mach@operate@signals
+vsumtwo
+R9
+!i10b 1
+!s100 =DVlI97RJzPRDme^IT2ZX2
+R2
+I3Z05h6L5ZS0DekhGn7Ycn1
+R3
+R0
+R10
+8/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/sumtwo.v
+F/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/sumtwo.v
+!i122 1
+L0 1 32
+R4
+r1
+!s85 0
+31
+R11
+!s107 /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/sumtwo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03|/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/sumtwo.v|
+!i113 1
+R6
+R7
+R8
+vtb_dut
+R1
+!i10b 1
+!s100 L<==;C_;g]OoeG88OYW@22
+R2
+IPmN_P5A4`@0hn`PVDYEb72
+R3
+R0
+w1682598649
+8/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v
+F/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v
+!i122 10
+L0 2 163
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches|/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches/tb_dut.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/testbenches
+R8
+vtop_dut
+!s110 1682598664
+!i10b 1
+!s100 ZiMXjYoRGD@a5KGj6eY9M1
+R2
+IBz:A3:B6EBmjnnfFSojB51
+R3
+R0
+w1682329217
+8/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/top_dut.v
+F/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/top_dut.v
+!i122 0
+L0 1 218
+R4
+r1
+!s85 0
+31
+!s108 1682598664.000000
+!s107 /home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/top_dut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03|/home/jhonatang/Documentos/PROYECTOS_QUARTUS/PROYECTO_32X32MAT/PROYECT_03/top_dut.v|
+!i113 1
+R6
+R7
+R8
